@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+**/node_modules/
+bower_components/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Environment variables
+**/.env
+
+# Production build
+**/build
+
+# IDE files
+.vscode/
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Backend
+/Backend/node_modules/
+
+# Frontend
+/Frontend/my-vite-app/node_modules/
+/Frontend/node_modules
+
